@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hi everyone</h1>
+    <h2>Java script tutorial</h2>
+
+    <p id="demo"> Java script is used to add functionality to the html page.</p>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML='Welcome to javascript'">Click me</button> <br><br>
+
+    <button onclick="document.getElementById('MyImage').src='https://www.w3schools.com/js/pic_bulbon.gif' ">
+        Turn on the light
+    </button>
+
+    <img id="MyImage" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width: 150px;">
+    
+    <button onclick="document.getElementById('MyImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">
+        Turn off the light
+    </button> 
+
+    <script src="practice.js"> </script>
+
+</body>
+</html>
