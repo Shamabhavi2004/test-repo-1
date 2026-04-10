@@ -1,6 +1,3 @@
-# ==========================================
-# 🌍 AI POLLUTION MONITORING SYSTEM (FINAL)
-# ==========================================
 
 import streamlit as st
 import pandas as pd
@@ -101,7 +98,7 @@ def set_bg(page="home"):
 if st.session_state.page == "home":
     set_bg("home")
 
-    st.title("🌍 AI Pollution Monitoring System")
+    st.title("AI Pollution Monitoring System")
     st.markdown("<h4 style='text-align:center;'>Smart AI system for real-time monitoring</h4>", unsafe_allow_html=True)
 
     if st.button("🚀 Start"):
