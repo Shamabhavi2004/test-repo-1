@@ -1,6 +1,8 @@
-streamlit_app.py
-requirements.txt
-labeled_environment_dataset.csv
-pollution_source_model.pkl
-label_encoder.pkl
-city_encoder.pkl
+streamlit
+pandas
+numpy
+plotly
+joblib
+scikit-learn
+folium
+streamlit-folium
